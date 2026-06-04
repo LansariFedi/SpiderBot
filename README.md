@@ -8,8 +8,6 @@ observations, and a forward-progress reward with survival and energy terms.
 
 ![Spider "walking" demo](weird4.gif)
 
-Replace `docs/demo.gif` with your recording.
-
 ## Overview
 
 - **Policy**: PPO (`MlpPolicy`) from Stable-Baselines3.
@@ -81,13 +79,6 @@ GUI window and runs the policy in a loop.
 	open multiple windows. For headless training, switch to `p.DIRECT` in `env.py`.
 - `VecNormalize` stats are required for consistent evaluation; keep
 	`vec_normalize.pkl` alongside the model.
-
-## Theory (Fill In)
-
-- PPO clipped objective and why it stabilizes updates.
-- Generalized Advantage Estimation (GAE) and bias-variance tradeoff.
-- Why action scaling/clipping is needed for position control.
-- The link between reward shaping and gait emergence.
 
 ## License
 
