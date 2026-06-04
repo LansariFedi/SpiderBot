@@ -4,7 +4,7 @@ Train a 12-DoF spider robot to walk forward in PyBullet using PPO from
 Stable-Baselines3. The environment exposes joint position control, dense
 observations, and a forward-progress reward with survival and energy terms.
 
-## Demo (GIF Placeholder)
+## Demo
 
 ![Spider "walking" demo](weird4.gif)
 
