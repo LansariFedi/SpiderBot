@@ -26,8 +26,10 @@ def Agent(env):
 
 
 def test(model_path="ppo_spider"):
+    folder_path = "old_model/"
     eval_env = SubprocVecEnv(make_envs(1))
-    vec_path = "vec_normalize.pkl"
+    model_path = folder_path + model_path
+    vec_path = folder_path + "vec_normalize.pkl"
     if os.path.exists(vec_path):
         eval_env = VecNormalize.load(vec_path, eval_env)
         eval_env.training = False

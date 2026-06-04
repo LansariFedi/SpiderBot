@@ -6,7 +6,7 @@ observations, and a forward-progress reward with survival and energy terms.
 
 ## Demo (GIF Placeholder)
 
-![Spider walking demo](demo.gif)
+![Spider "walking" demo](weird4.gif)
 
 Replace `docs/demo.gif` with your recording.
 
